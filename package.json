@@ -1,25 +1,30 @@
 {
-  "name": "socketchatapp",
-  "version": "1.0.0",
-  "description": "chat application built with express, node, socket.io",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StevenS125/socketchatapp.git"
-  },
-  "author": "Steven Snyder",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/StevenS125/socketchatapp/issues"
-  },
-  "homepage": "https://github.com/StevenS125/socketchatapp#readme"
+    "name": "socketchatapp",
+    "version": "1.0.0",
+    "description": "chat application built with express, node, socket.io",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "mongoose": "^4.13.9",
+        "socket.io": "^2.0.4"
+    },
+    "devDependencies": {
+        "jasmine": "^2.8.0",
+        "request": "^2.83.0"
+    },
+    "scripts": {
+        "test": "jasmine",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StevenS125/socketchatapp.git"
+    },
+    "author": "Steven Snyder",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/StevenS125/socketchatapp/issues"
+    },
+    "homepage": "https://github.com/StevenS125/socketchatapp#readme"
 }
